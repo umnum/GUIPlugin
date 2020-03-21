@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="IThEKC" name="GUIPlugin2" projectType="audioplug" jucerVersion="5.4.7">
+  <MAINGROUP id="hpv4nn" name="GUIPlugin2">
+    <GROUP id="{4784A6FD-949B-8AA1-3078-C20A32FA1EB8}" name="Recources">
+      <GROUP id="{B8636247-239C-B079-5939-36E16099E7DA}" name="Images">
+        <FILE id="PUdztv" name="slider_knob_strip.png" compile="0" resource="1"
+              file="../../Documents/slider_knob_strip.png"/>
+        <FILE id="YGekuI" name="slider_strip_background.png" compile="0" resource="1"
+              file="../../Documents/slider_strip_background.png"/>
+        <FILE id="kx99YR" name="toggle_strip.png" compile="0" resource="1"
+              file="../../Documents/toggle_strip.png"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{C9BEDB1A-F8E4-5DB9-C413-6E71968A7F0E}" name="Source">
+      <FILE id="Ns9GVP" name="Oscilliscope.cpp" compile="1" resource="0"
+            file="Source/Oscilliscope.cpp"/>
+      <FILE id="PsYJuc" name="Oscilliscope.h" compile="0" resource="0" file="Source/Oscilliscope.h"/>
+      <FILE id="gIgl2O" name="ToggleLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/ToggleLookAndFeel.cpp"/>
+      <FILE id="gWSHje" name="ToggleLookAndFeel.h" compile="0" resource="0"
+            file="Source/ToggleLookAndFeel.h"/>
+      <FILE id="AAthAZ" name="SliderLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/SliderLookAndFeel.cpp"/>
+      <FILE id="M5IrP6" name="SliderLookAndFeel.h" compile="0" resource="0"
+            file="Source/SliderLookAndFeel.h"/>
+      <FILE id="bXs2C5" name="ToggleArea.cpp" compile="1" resource="0" file="Source/ToggleArea.cpp"/>
+      <FILE id="KyfyBl" name="ToggleArea.h" compile="0" resource="0" file="Source/ToggleArea.h"/>
+      <FILE id="dMxzwL" name="SliderArea.cpp" compile="1" resource="0" file="Source/SliderArea.cpp"/>
+      <FILE id="qOs42v" name="SliderArea.h" compile="0" resource="0" file="Source/SliderArea.h"/>
+      <FILE id="nyR1B9" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="dsICw2" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="kU87lC" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="givZOC" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
